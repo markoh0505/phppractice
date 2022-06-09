@@ -15,7 +15,7 @@
 if(!(empty($_POST))){
     $servername = "localhost";
     $username = "loginUser";
-    $password = "qxy-G!V4.Y1ZQ9h]";
+    $password = "";
     $dbname = "logindb";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
